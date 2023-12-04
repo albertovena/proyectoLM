@@ -1,0 +1,65 @@
+body{
+    background-color: #FDF7E4;
+}
+.navegador.navbar-logo{
+    display: inline-block;
+    vertical-align: middle;
+    width: 70px;
+    position: relative;
+    top: 100px;
+    clear: both;
+    overflow: auto;
+    
+}
+.navbar-logo img{
+    width: 46px;
+    height: 46px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-top: -6px;
+    float: inline-start;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+}
+ul {
+    list-style-type: none;
+    margin: 20;
+    
+    overflow:hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: #FDF7E4;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+
+li a:hover {
+    background-color: #111;
+}
+h1{
+    text-align: center;
+}
+.img-inicio{
+    float: inline-start;
+    clear: both;
+    width: 50%;
+    
+}
+.dcto{
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    color: white;
+    letter-spacing: 25px;
+    
+}
