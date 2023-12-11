@@ -2,14 +2,16 @@ body{
     background-color: #FDF7E4;
 }
 .navegador.navbar-logo{
-    display: inline-block;
+    
     vertical-align: middle;
     width: 70px;
     position: relative;
     top: 100px;
     clear: both;
     overflow: auto;
-    
+    z-index: 1;
+    display: inline;
+    float: left;
 }
 .navbar-logo img{
     width: 46px;
